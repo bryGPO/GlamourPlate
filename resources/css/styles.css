@@ -115,6 +115,12 @@ nav img {
     background-image: url(../images/tyler\ bio.png);
 }
 
+@media only screen and (max-width: 550px) {
+    #bios {
+        flex-direction: column;
+    }
+}
+
 /* Footer */
 
 footer {
