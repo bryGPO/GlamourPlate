@@ -58,6 +58,7 @@ nav img {
 
 #banner h1 {
     font-family: 'Vollkorn', serif;
+    text-align: center;
 }
 
 /* Blurb */
@@ -87,6 +88,7 @@ nav img {
 .host_cont {
     height: 570px;
     max-width: 340px;
+    min-width: 140px;
     width: 33.33333%;
     background-size: cover;
     background-position: top;
@@ -115,9 +117,14 @@ nav img {
     background-image: url(../images/tyler\ bio.png);
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     #bios {
         flex-direction: column;
+        align-items: center;
+    }
+    .host_cont {
+        width: 90%;
+        margin: 24px;
     }
 }
 
